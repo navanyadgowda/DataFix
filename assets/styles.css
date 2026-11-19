@@ -1,0 +1,285 @@
+/* DataFix Custom Styling - Modern Navy, Cyan & White Professional Theme */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+    --primary: #0B192C;
+    --secondary: #1E3E62;
+    --accent: #00ADB5;
+    --accent-dark: #088395;
+    --bg-main: #F8FAFC;
+    --card-bg: #FFFFFF;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-muted: #64748B;
+    --border-color: #E2E8F0;
+    --success: #10B981;
+    --warning: #F59E0B;
+    --danger: #EF4444;
+    --info: #3B82F6;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Global Font */
+html, body, [class*="css"] {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-primary);
+}
+
+/* Main Container */
+.main .block-container {
+    padding-top: 1.8rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1400px;
+}
+
+/* Modern Card Style */
+.datafix-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 1.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.datafix-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: #CBD5E1;
+}
+
+/* Stat Metric Card */
+.stat-card {
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #00ADB5, #1E3E62);
+}
+
+.stat-val {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0B192C;
+    line-height: 1.2;
+}
+
+.stat-label {
+    font-size: 0.825rem;
+    font-weight: 600;
+    color: #64748B;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.35rem;
+}
+
+.stat-sub {
+    font-size: 0.75rem;
+    color: #94A3B8;
+    margin-top: 0.2rem;
+}
+
+/* Severity Badges */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.badge-critical {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    border: 1px solid #FCA5A5;
+}
+
+.badge-high {
+    background-color: #FFEDD5;
+    color: #9A3412;
+    border: 1px solid #FDBA74;
+}
+
+.badge-medium {
+    background-color: #FEF3C7;
+    color: #92400E;
+    border: 1px solid #FCD34D;
+}
+
+.badge-low {
+    background-color: #E0F2FE;
+    color: #075985;
+    border: 1px solid #BAE6FD;
+}
+
+.badge-success {
+    background-color: #D1FAE5;
+    color: #065F46;
+    border: 1px solid #6EE7B7;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background: linear-gradient(135deg, #0B192C 0%, #1E3E62 60%, #00ADB5 100%);
+    border-radius: 14px;
+    padding: 2rem 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 25px -5px rgba(11, 25, 44, 0.25);
+}
+
+.hero-banner h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+}
+
+.hero-banner p {
+    font-size: 1.05rem;
+    color: #E2E8F0;
+    max-width: 800px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.hero-badge {
+    background: rgba(0, 173, 181, 0.25);
+    border: 1px solid rgba(0, 173, 181, 0.5);
+    color: #E0F7FA;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+
+/* Sidebar Customization */
+[data-testid="stSidebar"] {
+    background-color: #0B192C;
+    border-right: 1px solid #1E293B;
+}
+
+[data-testid="stSidebar"] * {
+    color: #F8FAFC !important;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+[data-testid="stSidebar"] .stRadio label:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Code Snippet / Diff Display */
+.code-diff-old {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    text-decoration: line-through;
+}
+
+.code-diff-new {
+    background-color: #DCFCE7;
+    color: #166534;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Callout Box */
+.datafix-callout {
+    border-left: 4px solid var(--accent);
+    background-color: #F0FDFA;
+    padding: 1rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1rem 0;
+}
+
+.datafix-callout-warning {
+    border-left: 4px solid #F59E0B;
+    background-color: #FFFBEB;
+    padding: 1rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1rem 0;
+}
+
+/* Step Progress Indicator */
+.step-pipeline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+}
+
+.pipeline-step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #64748B;
+}
+
+.pipeline-step.active {
+    color: #00ADB5;
+}
+
+.pipeline-step.completed {
+    color: #10B981;
+}
+
+/* Tables */
+.dataframe {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.85rem;
+}
+
+.dataframe th {
+    background-color: #F1F5F9;
+    color: #0F172A;
+    font-weight: 600;
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 2px solid #CBD5E1;
+}
+
+.dataframe td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #E2E8F0;
+}

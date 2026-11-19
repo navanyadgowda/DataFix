@@ -1,0 +1,16 @@
+emp_id,first_name,last_name,email,department,birth_date,hire_date,salary,performance_score
+EMP-201,  Sarah  ,Connor,sconnor@cyberdyne.org,Engineering,1985-05-12,2015-06-01,95000,4.5
+EMP-202,Kyle,Reese,kreese@cyberdyne.org,Security,1988-08-23,2018-09-15,82000,4.2
+EMP-203,John,Connor,jconnor@cyberdyne.org,eng.,2005-02-28,1999-01-10,110000,4.8
+EMP-204,Miles,Dyson,mdyson@cyberdyne.org,Research & Development,1968-11-04,1995-03-20,$165,000,4.9
+EMP-205,Marcus,Wright,mwright@cyberdyne.org,Operations,1979-04-16,2010-07-11,-75000,3.8
+EMP-206,Kate,Brewster,kbrewster@cyberdyne.org,human resources,1984-12-01,2016-04-01,,4.0
+EMP-207,Peter,Silberman,psilberman@invalid-mail,HR,1955-09-17,1982-10-01,125000,3.5
+EMP-208,Grace,Harper,gharper@cyberdyne.org,ENGINEERING,1992-07-30,2020-01-15,92000,4.4
+EMP-209,Dani,Ramos,dramos@cyberdyne.org,Operations,1998-03-22,2022-08-01,65000,4.1
+EMP-210,Tim,Cooke,tcooke@cyberdyne.org,Finance,1975-01-14,2005-11-20,9500000,3.9
+EMP-201,  Sarah  ,Connor,sconnor@cyberdyne.org,Engineering,1985-05-12,2015-06-01,95000,4.5
+EMP-211,Alex,Murphy,amurphy@cyberdyne.org,Security,1980-10-15,05/18/2008,88000,4.6
+EMP-212,Ellen,Ripley,eripley@weyland.com,Operations,1982-01-07,2012-09-01,102000,4.7
+EMP-213,Arthur,Dallas,adallas@weyland.com,operations,1965-06-25,unparseable-date,118000,4.3
+EMP-214,Joan,Lambert,jlambert@weyland.com,Eng,1986-11-19,2014-03-10,$78000,3.7

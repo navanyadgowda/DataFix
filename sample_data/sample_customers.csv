@@ -1,0 +1,16 @@
+customer_id,name,email,phone,state,gender,age,annual_income,signup_date
+CUST001,Johnathan Doe,johndoe@gmaill.com,555-123-4567,California,Male,34,$75000,2023-01-15
+CUST002,Jane Smith,jane.smith@yahoo.com,555-987-6543,NY,Female,29,$92000,02/20/2023
+CUST003,  Robert Johnson  ,robert.j@corp.com,5553334444,Texas,M,45,$115000,2022-11-05
+CUST004,Alice Cooper,alice.c@gmail.com,+1-555-444-5555,calif,female,31,$68000,12-10-2022
+CUST005,bOB SMITH,bob.smith@company.org,,New York,male,-28,$84000,2023-03-01
+CUST006,Sarah Davis,sarah.d@gamil.com,555-777-8888,CA,F,38,$105000,2021-08-19
+CUST007,Michael Brown,michael.brown@outlook.com,555.888.9999,Texas,Male,189,$52000,2023-04-12
+CUST008,Emily Wilson,emily.w@invalid-email,555-000-1111,ny,Female,27,$64000,not-a-date
+CUST009,David Martinez,david.m@yahoo.com,555-222-3333,California,Male,42,$15000000,2022-05-30
+CUST010,Lisa Anderson,,555-444-1212,CA,Female,36,,2023-06-18
+CUST001,Johnathan Doe,johndoe@gmaill.com,555-123-4567,California,Male,34,$75000,2023-01-15
+CUST011,Jonathon Doe,johndoe@gmail.com,555-123-4567,California,Male,34,$75000,2023-01-15
+CUST012,James Taylor,jtaylor@company.com,555-666-7777,TX,Male,50,$128000,2020-09-14
+CUST013,Maria Garcia,maria.g@hotmial.com,555-555-6666,Florida,Female,33,$71000,2022-07-22
+CUST014,William Clark,wclark@gmail.com,invalid-phone,FL,M,29,$59000,2023-02-28

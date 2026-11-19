@@ -1,0 +1,16 @@
+order_id,customer_id,product_name,category,order_date,quantity,unit_price,total_amount,status
+ORD-101,CUST-001,Wireless Noise-Canceling Headphones,Electronics,2024-01-10,2,149.99,299.98,Completed
+ORD-102,CUST-002,Ergonomic Office Chair,Furniture,01/12/2024,1,250.00,250.00,completed
+ORD-103,CUST-003,Mechanical Gaming Keyboard,Electronics,2024-01-15,3,89.50,150.00,COMPLETED
+ORD-104,CUST-004,Stainless Steel Water Bottle,Accessories,2024-01-18,-5,24.99,-124.95,Pending
+ORD-105,,USB-C Multiport Adapter,electrnx,2024-01-20,4,35.00,140.00,completed
+ORD-106,CUST-006,Standing Desk Converter,Furniture,2024-01-25,1,199.99,199.99,Shipped
+ORD-107,CUST-007,Bluetooth Smart Speaker,Electronics,invalid_date,2,79.99,159.98,Processing
+ORD-108,CUST-008,Leather Laptop Sleeve,accessories,2024-02-01,1,45.00,45.00,delivered
+ORD-109,CUST-009,Ultra HD 4K Monitor,Electronics,2024-02-05,10,380.00,38000.00,Shipped
+ORD-110,CUST-010,Wireless Charging Pad,ELECTRONICS,2024-02-08,2,29.99,59.98,Completed
+ORD-101,CUST-001,Wireless Noise-Canceling Headphones,Electronics,2024-01-10,2,149.99,299.98,Completed
+ORD-111,CUST-011,Anker Power Bank,Electronics,2024-02-12,0,49.99,0.00,Cancelled
+ORD-112,CUST-012,Cotton Canvas Tote Bag,Accessories,2024-02-15,,18.50,37.00,Pending
+ORD-113,CUST-013,Desk Mat Extended Large,Accessories,2024-02-18,2,$22.00,44.00,Completed
+ORD-114,CUST-014,Webcam 1080p HD,Electronics,2024-02-22,1,69.99,120.00,Shipped
